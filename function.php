@@ -15,7 +15,7 @@ function query($query) {
 
 
 function tambah($data) {
-    // ambil data dari tiap elemen dalam form
+    // ambil data dari tiap elemen dalam form.
     global $conn;
     
     $nama = htmlspecialchars($data["nama"]);
